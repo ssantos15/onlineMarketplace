@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Online Shopping</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1>Online MarketPlace</h1>
+        <p><em>This is a site where you'll be able to buy items online</em></p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="formOne">
+            <div class="form-group">
+              <label for ="name">Name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for ="address">Adress:</label>
+              <input id="address" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="boats">Select the boat you want to purchase with the dropdown below</label>
+              <select class="form-control" id="boats">
+                <option>--Select--</option>
+                <option>Jet Ski- Price: $1000</option>
+                <option>Motor Boat- Price: $20,000</option>
+                <option>Fery- Price: $200,000</option>
+                <option>Yacht- Price: $5,000,000</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-dark">Purchase</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
