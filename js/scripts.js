@@ -11,4 +11,7 @@ $(function() {
 
     $("#hiddenReceipt").slideToggle();
   });
+  $("#hiddenReceipt").click(function(){
+    $("#hiddenReceipt").slideUp();
+  });
 });

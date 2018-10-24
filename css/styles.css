@@ -16,4 +16,5 @@ body {
   width:50%;
   padding:10%;
   box-shadow: 5px 10px black;
+  cursor: pointer;
 }
